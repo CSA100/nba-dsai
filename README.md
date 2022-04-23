@@ -12,9 +12,9 @@ For detaikled walkthrough, please view the source code in order from:
 5. 
 
 ## Contributors
-- @
-- @
-- @
+- @CSA100
+- @zonpig
+- @crustyapples
 
 ## Background
 With the evolution of the sport, players have greater access to training facilities and have been able to build stronger capabilities to improve their play.
@@ -32,7 +32,7 @@ To address this question, we set out to uncover the kind of players that todays 
 ## Models Used
 
 1. Hierarchical Agglomerative Clustering 
-2. K-Means Clustering3
+2. K-Means Clustering
 
 ## Conclusion
 
