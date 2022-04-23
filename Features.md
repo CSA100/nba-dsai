@@ -60,6 +60,7 @@
 # General
 
 | Opponent:                                         | Defense:                                       | Estimated Advanced:                                |
+|:-------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|
 | GP Games Played                                   | GP Games Played                                | GP Games Played                                    |
 | W Wins                                            | W Wins                                         | W Wins                                             |
 | L Losses                                          | L Losses                                       | L Losses                                           |
@@ -88,6 +89,7 @@
 
 # Playtype (Offense/Defense)
 
+|:------------------------------------:|
 |            GP Games Played           |
 |           Poss Possessions           |
 |            Freq Frequency            |
@@ -102,7 +104,6 @@
 |    SF Freq Shooting Foul Frequency   |
 |    And One Freq And One Frequency    |
 |      Score Freq Score Frequency      |
-|                                      |
 
 # Tracking
 
