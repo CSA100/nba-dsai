@@ -89,6 +89,7 @@
 
 # Playtype (Offense/Defense)
 
+|               Playtype               |
 |:------------------------------------:|
 |            GP Games Played           |
 |           Poss Possessions           |
