@@ -3,18 +3,14 @@
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
-<<<<<<< HEAD
+
+For detailed walkthrough, please view the source code in order from:
+=======
+
+=======
+
 For detailed walkthrough, please view the source code in order from:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of a96fc08 (change)
-=======
-For detaikled walkthrough, please view the source code in order from:
->>>>>>> 1d99fdabed8912f7bbb7afc7e1c0549517df66e2
 1. Problem Definition
 - [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
@@ -29,23 +25,23 @@ For detaikled walkthrough, please view the source code in order from:
 - K-MeansClustering.ipynb
 5. Final Insights
 - clusteringEDA.ipynb
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
->>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
+
 1. 
 2. 
 3. 
 4. 
 5. 
-<<<<<<< HEAD
+
 =======
->>>>>>> parent of 07f2f54 (Merge branch 'master' of https://github.com/CSA100/nba-dsai)
->>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
+
+
 =======
->>>>>>> parent of a96fc08 (change)
+
 =======
->>>>>>> 1d99fdabed8912f7bbb7afc7e1c0549517df66e2
+
 
 ## Contributors
 - @CSA100 (Anand Chaanan Singh)
@@ -74,7 +70,6 @@ To address this question, we set out to uncover the kind of players that todays 
 -
 -
 -
-
 
 ## What did we learn from this project?
 
