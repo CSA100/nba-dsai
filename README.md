@@ -13,23 +13,23 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - [WebScraping.ipynb](https://github.com/CSA100/nba-dsai/blob/master/Web%20Scrapping.ipynb)
 - [Features.md](https://github.com/CSA100/nba-dsai/blob/master/Features.md)
 - [FeatureSelection.ipynb](https://github.com/CSA100/nba-dsai/blob/master/FeatureSelection.ipynb)  
-The notebooks in this portion is used to extract data from NBA.com to form our datasets. For data extraction, we utilised selenium and beautifulSoup to scrape the data from NBA.com. After extracting the data, the feature selection notebook sees us plot correlation matrixes and graphs to identify features that have high correlation to drop. As these features have high correlation, dropping one of them would help us increase the accuracy of our model
+The notebooks in this portion is used to extract data from NBA.com to form our datasets. For data extraction, we utilised selenium and beautifulSoup to scrape the data from NBA.com. After extracting the data, the feature selection notebook sees us plot correlation matrixes and graphs to identify features that have high correlation to drop. As these features have high correlation, dropping one of them would help us increase the accuracy of our model. We also perform various data cleaning tasks such as checking for null values and renaming columns to be more descriptive. We also held onto various features despite high correlations in order to not adversely impact the interpretability of our eventual model.
 
 3. Exploratory Data Analysis / Visualisation
 - [FeatureSelection.ipynb](https://github.com/CSA100/nba-dsai/blob/master/FeatureSelection.ipynb)
 - [PCA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/PCA.ipynb)
 - [EDA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/EDA.ipynb)  
-The FeatureSelection Notebook also serves as a form of data analysis and visualisation as we see the relationship between the various stats. After dropping some features in FeatureSelection, we carried out Principal Component Analysis (PCA) to reduce the dimensions of the data further. After doing the PCA, 
+The FeatureSelection Notebook also serves as a form of data analysis and visualisation as we see the relationship between the various stats and recognise what stats may be useful in categorising the play styles of players. After dropping some features in FeatureSelection, we carried out Principal Component Analysis (PCA) to reduce the dimensions of the data further, in particular we limited the number of principal components to 5, despite only achieving a 53% explained variance in order to ensure our components were interpretable. After doing the PCA, we performed futher exploratory analysis using our chosen principal components and gleaned additional insights into how our data may be clustered (found in EDA.ipynb).
 
 
 4. Use of Machine Learning
 - [hierarchicalClustering.ipynb](https://github.com/CSA100/nba-dsai/blob/master/hierarchicalClustering.ipynb)
 - [K-MeansClustering.ipynb](https://github.com/CSA100/nba-dsai/blob/master/K-MeansClustering.ipynb)  
-After carrying out exploratory data analysis/ visualisation, we went on to use machine learning models specifically clustering to derive solutions to solve our problem. We utilsied Hierarchical Agglomerative Clustering and K-Means Clustering algorithm to obtain our different clusters of players. 
+After carrying out exploratory data analysis/ visualisation, we went on to use machine learning models specifically clustering to derive a solutions to our problem. We utilsied Hierarchical Agglomerative Clustering and K-Means Clustering algorithm to obtain different clusters of players. 
 
 5. Final Insights
 - [clusteringEDA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/clusteringEDA.ipynb)   
-Lastly, in this notebook we utilised the clusters that we obtained and applied it to the win losses record of the NBA teams in 2020-2021 season. We managed to obtain which clusters of players did top teams have as compared to the weaker teams. We also added some concluding thoughts on the problema and solution. 
+Lastly, in this notebook we utilised the clusters that we obtained and applied it to the win losses record of the NBA teams in 2020-2021 season. We managed to obtain which clusters of players did top teams have as compared to the weaker teams. We also added some concluding thoughts on the problem, solution and models used. 
 
 
 ## Contributors
