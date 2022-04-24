@@ -8,7 +8,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 =======
 
 1. Problem Definition
-- [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
+- [README.md](https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
 - WebScraping.ipynb
 - Features.md
