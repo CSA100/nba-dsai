@@ -6,7 +6,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 For detailed walkthrough, please view the source code in order from:
 
 1. Problem Definition
-- README.md
+- [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
 - WebScraping.ipynb
 - Features.md
@@ -17,14 +17,13 @@ For detailed walkthrough, please view the source code in order from:
 5. Use of Machine Learning
 - hierarchicalClustering.ipynb
 - K-MeansClustering.ipynb
-- MeanShiftClustering.ipynb
 5. Final Insights
 - clusteringEDA.ipynb
 
 ## Contributors
-- @CSA100
-- @zonpig
-- @crustyapples
+- @CSA100 (Anand Chaanan Singh)
+- @zonpig (Bryan Lim Kai Wen)
+- @crustyapples (Advait Bharat Deshpande 
 
 ## Background
 With the evolution of the sport, players have greater access to training facilities and have been able to build stronger capabilities to improve their play.
@@ -45,14 +44,17 @@ To address this question, we set out to uncover the kind of players that todays 
 2. K-Means Clustering
 
 ## Conclusion
+-
+-
+-
 
 
 ## What did we learn from this project?
 
 
 ## References
-- 
-- 
+- https://www.nba.com/stats/
+- https://scikit-learn.org/stable/modules/clustering.html
 - 
 - 
 - 
