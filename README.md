@@ -4,10 +4,6 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
 For detaikled walkthrough, please view the source code in order from:
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 1. Problem Definition
 - [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
@@ -17,22 +13,11 @@ For detaikled walkthrough, please view the source code in order from:
 3. Exploratory Data Analysis / Visualisation
 - FeatureSelection.ipynb
 - EDA.ipynb
-5. Use of Machine Learning
+4. Use of Machine Learning
 - hierarchicalClustering.ipynb
 - K-MeansClustering.ipynb
 5. Final Insights
 - clusteringEDA.ipynb
-=======
->>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
-1. 
-2. 
-3. 
-4. 
-5. 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 07f2f54 (Merge branch 'master' of https://github.com/CSA100/nba-dsai)
->>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
 
 ## Contributors
 - @CSA100 (Anand Chaanan Singh)
