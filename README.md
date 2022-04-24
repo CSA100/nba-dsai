@@ -4,7 +4,7 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
 
-For detailed walkthrough, please view the source code in order from:
+## For detailed walkthrough, please view the source code in order from:
 =======
 
 1. Problem Definition
