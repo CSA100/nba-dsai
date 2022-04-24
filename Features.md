@@ -1,24 +1,24 @@
-# General
+# General / Clutch
 
-| Traditional                         | Advanced                              | Defense:                                          | 
+| Traditional                         | Advanced                              | Misc                                          | 
 |-------------------------------------|---------------------------------------|-----------------------------------------------|
 | GP Games Played                     | GP Games Played                       | GP Games Played                               |
 | W Wins                              | W Wins                                | W Wins                                        |
 | L Losses                            | L Losses                              | L Losses                                      |
 | MIN Minutes Played                  | MIN Minutes Played                    | MIN Minutes Played                            |
-| FGM Field Goals Made                | OffRtg Offensive Rating               | DEF RTG Defensive Rating                |
-| FGA Field Goals Attempted           | DefRtg Defensive Rating               | DREB Defensive Rebounds                  |
-| FG% Field Goal Percentage           | NetRtg Net Rating                     | DREB% Defensive Rebound Percentage                        |
-| 3PM 3 Point Field Goals Made        | AST% Assist Percentage                | % DREB Percent of Team's Defensive Rebounds                      |
-| 3PA 3 Point Field Goals Attempted   | AST/TO Assist to Turnover Ratio       | STL Steals Off Turnovers  |
-| 3P% 3 Point Field Goals Percentage  | AST Ratio Assist Ratio                | STL% Percent of Team's Steals        |
-| FTM Free Throws Made                | OREB% Offensive Rebound Percentage    | BLK Blocks           |
-| FTA Free Throws Attempted           | DREB% Defensive Rebound Percentage    | %BLK Percent of Team's Blocks         |
-| FT% Free Throw Percentage           | REB% Rebound Percentage               | OPP PTS OFF TOV Opponent Points Off Turnovers                                    |
-| PTS Points                          | TO Ratio Turnover Ratio               | OPP PTS 2ND CHANCE Opponent 2nd Chance Points              |
-| OREB Offensive Rebounds             | eFG% Effective Field Goal Percentage  | OPP PTS FB Opponent Fast Break Points                              |
-| DREB Defensive Rebounds             | TS% True Shooting Percentage          | OPP PTS PAINT Opponent Points in the Paint                      |
-| REB Rebounds                        | USG% Usage Percentage                 | DEF WS Defensive Win Shares                                              |
+| FGM Field Goals Made                | OffRtg Offensive Rating               | PTS OFF TO Points Off Turnovers               |
+| FGA Field Goals Attempted           | DefRtg Defensive Rating               | 2nd PTS Second Chance Points                  |
+| FG% Field Goal Percentage           | NetRtg Net Rating                     | FBPs Fast Break Points                        |
+| 3PM 3 Point Field Goals Made        | AST% Assist Percentage                | PITP Points in the Paint                      |
+| 3PA 3 Point Field Goals Attempted   | AST/TO Assist to Turnover Ratio       | Opp PTS OFF TO Opponent Points Off Turnovers  |
+| 3P% 3 Point Field Goals Percentage  | AST Ratio Assist Ratio                | Opp 2nd PTS Opponent 2nd Chance Points        |
+| FTM Free Throws Made                | OREB% Offensive Rebound Percentage    | Opp FBPs Opponent Fast Break Points           |
+| FTA Free Throws Attempted           | DREB% Defensive Rebound Percentage    | Opp PITP Opponent Points in the Paint         |
+| FT% Free Throw Percentage           | REB% Rebound Percentage               | BLK Blocks                                    |
+| PTS Points                          | TO Ratio Turnover Ratio               | BLKA Blocked Field Goal Attempts              |
+| OREB Offensive Rebounds             | eFG% Effective Field Goal Percentage  | PF Personal Fouls                             |
+| DREB Defensive Rebounds             | TS% True Shooting Percentage          | PFD Personal Fouls Drawn                      |
+| REB Rebounds                        | USG% Usage Percentage                 |                                               |
 | AST Assists                         | PACE Pace                             |                                               |
 | TOV Turnovers                       | PIE Player Impact Estimate            |                                               |
 | STL Steals                          |                                       |                                               |
@@ -29,37 +29,86 @@
 | TD3 Triple doubles                  |                                       |                                               |
 | +/- Plus Minus                      |                                       |                                               |
 
-# General 
+# General / Clutch
 
-| Scoring                                                    | 
-|------------------------------------------------------------|
-| GP Games Played                                            |
-| W Wins                                                     |
-| L Losses                                                   |
-| MIN Minutes Played                                         |
-| %FGA 2PT Percent of Field Goals Attempted (2 Pointers)     |
-| %FGA 3PT Percent of Field Goals Attempted (3 Pointers)     |
-| %PTS 2PT Percent of Points (2 Pointers)                    |
-| %PTS 2PT MR Percent of Points (Mid-Range)                  |
-| %PTS 3PT Percent of Points (3 Pointers)                    |
-| %PTS FBPs Percent of Points (Fast Break Points)            |
-| %PTS FT Percent of Points (Free Throws)                    |
-| %PTS OffTO Percent of Points (Off Turnovers)               |
-| %PTS PITP Percent of Points (Points in the Paint)          |
-| 2FGM %AST Percent of 2 Point Field Goals Made Assisted     |
-| 2FGM %UAST Percent of 2 Point Field Goals Made Unassisted  |
-| 3FGM %AST Percent of 3 Point Field Goals Made Assisted     |
-| 3FGM %UAST Percent of 3 Point Field Goals Made Unassisted  |
-| FGM %AST Percent of Point Field Goals Made Assisted        |
-| FGM %UAST Percent of Point Field Goals Made Unassisted     |
-                     
+| Scoring                                                    | Usage
+|------------------------------------------------------------|------------------------------------------------------|
+| GP Games Played                                            | GP Games Played                                      |
+| W Wins                                                     | W Wins                                               |
+| L Losses                                                   | L Losses                                             |
+| MIN Minutes Played                                         | MIN Minutes Played                                   |
+| %FGA 2PT Percent of Field Goals Attempted (2 Pointers)     | USG% Usage Percent                                   |
+| %FGA 3PT Percent of Field Goals Attempted (3 Pointers)     | %FGM Percent of Team's Field Goals Made              |
+| %PTS 2PT Percent of Points (2 Pointers)                    | %FGA Percent of Team's Field Goals Attemped          |
+| %PTS 2PT MR Percent of Points (Mid-Range)                  | %3PM Percent of Team's 3PT Field Goals Made          |
+| %PTS 3PT Percent of Points (3 Pointers)                    | %3PA Percent of Team's 3PT Field Goals Attemped      |
+| %PTS FBPs Percent of Points (Fast Break Points)            | %FTM Percent of Team's Free Throws Made              |
+| %PTS FT Percent of Points (Free Throws)                    | %FTA Percent of Team's Free Throws Attemped          |
+| %PTS OffTO Percent of Points (Off Turnovers)               | %OREB Percent of Team's Offensive Rebounds           |
+| %PTS PITP Percent of Points (Points in the Paint)          | %DREB Percent of Team's Defensive Rebounds           |
+| 2FGM %AST Percent of 2 Point Field Goals Made Assisted     | %REB Percent of Team's Total Rebounds                |
+| 2FGM %UAST Percent of 2 Point Field Goals Made Unassisted  | %AST Percent of Team's Assists                       |
+| 3FGM %AST Percent of 3 Point Field Goals Made Assisted     | %TOV Percent of Team's Turnovers                     |
+| 3FGM %UAST Percent of 3 Point Field Goals Made Unassisted  | %STL Percent of Team's Steals                        |
+| FGM %AST Percent of Point Field Goals Made Assisted        | %BLK Percent of Team's Blocks                        |
+| FGM %UAST Percent of Point Field Goals Made Unassisted     | %BLKA Percent of Team's Blocked Field Goal Attempts  |
+|                                                            | %PF Percent of Team's Personal Fouls                 |
+|                                                            | %PFD Percent of Team's Personal Fouls Drawn          |
+|                                                            | %PTS Percent of Team's Points                        |
+|                                                            |                                                      |
 
+# General
 
+| Opponent:                                         | Defense:                                       | Estimated Advanced:                                |
+|:-------------------------------------------------:|:----------------------------------------------:|:--------------------------------------------------:|
+| GP Games Played                                   | GP Games Played                                | GP Games Played                                    |
+| W Wins                                            | W Wins                                         | W Wins                                             |
+| L Losses                                          | L Losses                                       | L Losses                                           |
+| MIN Minutes Played                                | MIN Minutes Played                             | MIN Minutes Played                                 |
+| OPP FGM Opponent's Field Goals Made               | DEF RTG Defensive Rating                       | Est. OffRtg Estimated Offensive Rating             |
+| OPP FGA Opponent's Field Goals Attempted          | DREB Defensive Rebounds                        | Est. DefRtg Estimated Defensive Rating             |
+| OPP FG% Opponent's Field Goal Percentage          | DREB% Defensive Rebound Percentage             | Est. NetRtg Estimated Net Rating                   |
+| OPP 3PM Opponent's 3 Point Field Goals Made       | % DREB Percent of Team's Defensive Rebounds    | Est. AST Ratio Estimated Assist Ratio              |
+| OPP 3PA Opponent's 3 Point Field Goals Attempted  | STL Steals                                     | Est. OREB% Estimated Offensive Rebound Percentage  |
+| OPP 3P% Opponent's 3 Point Field Goal Percentage  | STL% Percent of Team's Steals                  | Est. DREB% Estimated Defensive Rebound Percentage  |
+| OPP FTM Opponent's Free Throws Made               | BLK Blocks                                     | Est. REB% Estimated Rebound Percentage             |
+| OPP FTA Opponent's Free Throws Attempted          | %BLK Percent of Team's Blocks                  | Est. TO Ratio Estimated Turnover Ratio             |
+| OPP FT% Opponent's Free Throw Percentage          | OPP PTS OFF TOV Opponent Points Off Turnovers  | Est. USG% Estimated Usage Percentage               |
+| OPP OREB Opponent's Offensive Rebounds            | OPP PTS 2ND CHANCE Opponent 2nd Chance Points  | Est. PACE Estimated Pace                           |
+| OPP DREB Opponent's Defensive Rebounds            | OPP PTS FB Opponent Fast Break Points          |                                                    |
+| OPP REB Opponent's Rebounds                       | OPP PTS PAINT Opponent Points in the Paint     |                                                    |
+| OPP AST Opponent's Assists                        | DEF WS Defensive Win Shares                    |                                                    |
+| OPP TOV Opponent's Turnovers                      |                                                |                                                    |
+| OPP STL Opponent's Steals                         |                                                |                                                    |
+| OPP BLK Opponent's Blocks                         |                                                |                                                    |
+| OPP BLKA Opponent's Blocked Field Goal Attempts   |                                                |                                                    |
+| OPP PF Opponent's Personal Fouls                  |                                                |                                                    |
+| OPP PFD Opponent's Personal Fouls Drawn           |                                                |                                                    |
+| OPP PTS Opponent's Points                         |                                                |                                                    |
+| +/- Opponent's Plus/Minus                         |                                                |                                                    |
 
+# Playtype (Offense/Defense)
+
+|               Playtype               |
+|:------------------------------------:|
+|            GP Games Played           |
+|           Poss Possessions           |
+|            Freq Frequency            |
+|       PPP Points Per Possession      |
+|              PTS Points              |
+|         FGM Field Goals Made         |
+|       FGA Field Goals Attempted      |
+|       FG% Field Goal Percentage      |
+| eFG% Effective Field Goal Percentage |
+|     FT Freq Free Throw Frequency     |
+|      TO FREQ Turnover Frequency      |
+|    SF Freq Shooting Foul Frequency   |
+|    And One Freq And One Frequency    |
+|      Score Freq Score Frequency      |
 
 # Tracking
 
-|               Drives                |          Defensive Impact                  |       Catch and Shoot               |
+|               Drives:                |          Defensive Impact:                  |       Catch and Shoot:               |
 |:------------------------------------:|:-------------------------------------------:|:------------------------------------:|
 | Drives:                              | Defensive Impact:                           | Catch and Shoot:                     |
 | GP Games Played                      | GP Games Played                             | GP Games Played                      |
@@ -86,7 +135,7 @@
 
 # Tracking
 
-| Passing                                      | Touches                                    | Pull Up Shooting                     |
+| Passing:                                      | Touches:                                    | Pull Up Shooting                     |
 |:---------------------------------------------:|:-------------------------------------------:|:------------------------------------:|
 | GP Games Played                               | GP Games Played                             | GP Games Played                      |
 | W Wins                                        | W Wins                                      | MIN Minutes                          |
@@ -108,7 +157,7 @@
 
 # Tracking
 
-| Rebounding                                              | Offensive Rebounding                                               | Defensive Rebounding                                                |
+| Rebounding:                                              | Offensive Rebounding:                                               | Defensive Rebounding                                                |
 |:--------------------------------------------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | GP Games Played                                          | GP Games Played                                                     | GP Games Played                                                     |
 | W Wins                                                   | W Wins                                                              | W Wins                                                              |
@@ -126,27 +175,27 @@
 
 # Tracking
 
-| Post Ups                             | Paint Touches                       | Speed & Distance                       |
-|---------------------------------------|--------------------------------------|----------------------------------------|
-| GP Games Played                       | GP Games Played                      | GP Games Played                        |
-| W Wins                                | W Wins                               | W Wins                                 |
-| L Losses                              | L Losses                             | L Losses                               |
-| MIN Minutes Played                    | MIN Minutes                          | DIST. FEET Distance Feet               |
-| Touches Touches                       | Touches Touches                      | DIST. MILES Distance Miles             |
-| Post Touches Post Touches             | Paint Touches Paint Touches          | DIST. MILES OFF Distance Miles Offense |
-| FGM Field Goals Made                  | FGM Field Goals Made                 | DIST. MILES DEF Distance Miles Defense |
-| FGA Field Goals Attempted             | FGA Field Goals Attempted            | AVG SPEED Average Speed                |
-| FG% Field Goal Percentage             | FG% Field Goal Percentage            | AVG SPEED OFF Average Speed Offense    |
-| FTM Free Throws Made                  | FTM Free Throws Made                 | AVG SPEED DEF Average Speed Defense    |
-| FTA Free Throws Attempted             | FTA Free Throws Attempted            |                                        |
-| FT% Free Throw Percentage             | FT% Free Throw Percentage            |                                        |
-| PTS Points                            | PTS Points                           |                                        |
-| PTS% Points Percentage                | PTS% Points Percentage               |                                        |
-|  PASS Pass                            | PASS Pass                            |                                        |
-| PASS% Pass Percentage                 | PASS% Pass Percentage                |                                        |
-| AST Assists                           | AST Assists                          |                                        |
-| AST% Percent of Team's Assists        | AST% Percent of Team's Assists       |                                        |
-| TO Turnovers                          | TO Turnovers                         |                                        |
-| TOV% Percent of Team's Turnovers      | TOV% Percent of Team's Turnovers     |                                        |
-| PF Personal Fouls                     | PF Personal Fouls                    |                                        |
-|  PF% Percent of Team's Personal Fouls | PF% Percent of Team's Personal Fouls |                                        |
+| Post Ups:                             | Paint Touches:                       |
+|:-------------------------------------:|:------------------------------------:|
+| GP Games Played                       | GP Games Played                      |
+| W Wins                                | W Wins                               |
+| L Losses                              | L Losses                             |
+| MIN Minutes Played                    | MIN Minutes                          |
+| Touches Touches                       | Touches Touches                      |
+| Post Touches Post Touches             | Paint Touches Paint Touches          |
+| FGM Field Goals Made                  | FGM Field Goals Made                 |
+| FGA Field Goals Attempted             | FGA Field Goals Attempted            |
+| FG% Field Goal Percentage             | FG% Field Goal Percentage            |
+| FTM Free Throws Made                  | FTM Free Throws Made                 |
+| FTA Free Throws Attempted             | FTA Free Throws Attempted            |
+| FT% Free Throw Percentage             | FT% Free Throw Percentage            |
+| PTS Points                            | PTS Points                           |
+| PTS% Points Percentage                | PTS% Points Percentage               |
+|  PASS Pass                            | PASS Pass                            |
+| PASS% Pass Percentage                 | PASS% Pass Percentage                |
+| AST Assists                           | AST Assists                          |
+| AST% Percent of Team's Assists        | AST% Percent of Team's Assists       |
+| TO Turnovers                          | TO Turnovers                         |
+| TOV% Percent of Team's Turnovers      | TOV% Percent of Team's Turnovers     |
+| PF Personal Fouls                     | PF Personal Fouls                    |
+|  PF% Percent of Team's Personal Fouls | PF% Percent of Team's Personal Fouls |
