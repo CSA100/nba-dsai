@@ -3,11 +3,14 @@
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
-For detaikled walkthrough, please view the source code in order from:
+For detailed walkthrough, please view the source code in order from:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of a96fc08 (change)
 1. Problem Definition
 - [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
@@ -22,6 +25,7 @@ For detaikled walkthrough, please view the source code in order from:
 - K-MeansClustering.ipynb
 5. Final Insights
 - clusteringEDA.ipynb
+<<<<<<< HEAD
 =======
 >>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
 1. 
@@ -33,6 +37,8 @@ For detaikled walkthrough, please view the source code in order from:
 =======
 >>>>>>> parent of 07f2f54 (Merge branch 'master' of https://github.com/CSA100/nba-dsai)
 >>>>>>> a96fc0803866d06c336cb2e5f446aa2f8c2df75f
+=======
+>>>>>>> parent of a96fc08 (change)
 
 ## Contributors
 - @CSA100 (Anand Chaanan Singh)
