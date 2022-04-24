@@ -7,16 +7,27 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 ## For detailed walkthrough, please view the source code in order from:
 1. Problem Definition
 - [README.md](https://github.com/CSA100/nba-dsai/blob/master/README.md)
+
+
 2. Data Collection and Preperation
 - [WebScraping.ipynb](https://github.com/CSA100/nba-dsai/blob/master/Web%20Scrapping.ipynb)
 - [Features.md](https://github.com/CSA100/nba-dsai/blob/master/Features.md)
 - [FeatureSelection.ipynb](https://github.com/CSA100/nba-dsai/blob/master/FeatureSelection.ipynb)
+The notebokks in this portion is used to extract data from NBA.com to form our datasets. For data extraction, we utilised selenium and beautifulSoup to scrape the data from NBA.com. After extracting the data, the feature selection notebook sees us plot correlation matrixes and graphs to identify features that have high correlation to drop. As these features have high correlation, dropping one of them would help us increase the accuracy of our model
+
 3. Exploratory Data Analysis / Visualisation
 - [FeatureSelection.ipynb](https://github.com/CSA100/nba-dsai/blob/master/FeatureSelection.ipynb)
+- [PCA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/PCA.ipynb)
 - [EDA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/EDA.ipynb)
+The FeatureSelection Notebook also serves as a form of data analysis and visualisation as we see the relationship between the various stats. After dropping some features in FeatureSelection, we carried out Principal Component Analysis (PCA) to reduce the dimensions of the data further. After doing the PCA, 
+
+
 4. Use of Machine Learning
 - [hierarchicalClustering.ipynb](https://github.com/CSA100/nba-dsai/blob/master/hierarchicalClustering.ipynb)
 - [K-MeansClustering.ipynb](https://github.com/CSA100/nba-dsai/blob/master/K-MeansClustering.ipynb)
+After carrying out exploratory data analysis/ visualisation, we went on to use machine learning models specifically clustering 
+
+
 5. Final Insights
 - [clusteringEDA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/clusteringEDA.ipynb)
 
