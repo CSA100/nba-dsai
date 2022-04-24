@@ -75,6 +75,4 @@ Insights:
 ## References
 - https://www.nba.com/stats/
 - https://scikit-learn.org/stable/modules/clustering.html
-- 
-- 
-- 
+- https://www.stata.com/manuals13/mvcluster.pdf
