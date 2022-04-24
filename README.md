@@ -7,10 +7,6 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 For detailed walkthrough, please view the source code in order from:
 =======
 
-=======
-
-For detailed walkthrough, please view the source code in order from:
-
 1. Problem Definition
 - [README.md] (https://github.com/CSA100/nba-dsai/blob/master/README.md)
 2. Data Collection and Preperation
