@@ -21,9 +21,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - [clusteringEDA.ipynb](https://github.com/CSA100/nba-dsai/blob/master/clusteringEDA.ipynb)
 
 ## Contributors
-- @CSA100 (Anand Chaanan Singh)
-- @zonpig (Bryan Lim Kai Wen)
-- @crustyapples (Advait Bharat Deshpande)
+- @CSA100 (Anand Chaanan Singh) - Exploratory Data Analysis/ Visualization
+- @zonpig (Bryan Lim Kai Wen) - Data Collection and Preparation
+- @crustyapples (Advait Bharat Deshpande) - Use of Machine Learning
 
 ## Background
 With the evolution of the sport, players have greater access to training facilities and have been able to build stronger capabilities to improve their play.
