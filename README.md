@@ -22,9 +22,6 @@ For detailed walkthrough, please view the source code in order from:
 5. Final Insights
 - clusteringEDA.ipynb
 
-=======
-
-
 ## Contributors
 - @CSA100 (Anand Chaanan Singh)
 - @zonpig (Bryan Lim Kai Wen)
