@@ -3,13 +3,23 @@
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
-For detaikled walkthrough, please view the source code in order from:
+For detailed walkthrough, please view the source code in order from:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Problem Definition
+- README.md
+2. Data Collection and Preperation
+- WebScraping.ipynb
+- Features.md
+- FeatureSelection.ipynb
+3. Exploratory Data Analysis / Visualisation
+- FeatureSelection.ipynb
+- EDA.ipynb
+5. Use of Machine Learning
+- hierarchicalClustering.ipynb
+- K-MeansClustering.ipynb
+- MeanShiftClustering.ipynb
+5. Final Insights
+- clusteringEDA.ipynb
 
 ## Contributors
 - @CSA100
