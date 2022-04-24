@@ -59,7 +59,7 @@
 
 # Tracking
 
-|               Drives:                |          Defensive Impact:                  |       Catch and Shoot:               |
+|               Drives                |          Defensive Impact                  |       Catch and Shoot               |
 |:------------------------------------:|:-------------------------------------------:|:------------------------------------:|
 | Drives:                              | Defensive Impact:                           | Catch and Shoot:                     |
 | GP Games Played                      | GP Games Played                             | GP Games Played                      |
@@ -86,7 +86,7 @@
 
 # Tracking
 
-| Passing:                                      | Touches:                                    | Pull Up Shooting                     |
+| Passing                                      | Touches                                    | Pull Up Shooting                     |
 |:---------------------------------------------:|:-------------------------------------------:|:------------------------------------:|
 | GP Games Played                               | GP Games Played                             | GP Games Played                      |
 | W Wins                                        | W Wins                                      | MIN Minutes                          |
@@ -108,7 +108,7 @@
 
 # Tracking
 
-| Rebounding:                                              | Offensive Rebounding:                                               | Defensive Rebounding                                                |
+| Rebounding                                              | Offensive Rebounding                                               | Defensive Rebounding                                                |
 |:--------------------------------------------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | GP Games Played                                          | GP Games Played                                                     | GP Games Played                                                     |
 | W Wins                                                   | W Wins                                                              | W Wins                                                              |
@@ -126,27 +126,27 @@
 
 # Tracking
 
-| Post Ups:                             | Paint Touches:                       |
-|:-------------------------------------:|:------------------------------------:|
-| GP Games Played                       | GP Games Played                      |
-| W Wins                                | W Wins                               |
-| L Losses                              | L Losses                             |
-| MIN Minutes Played                    | MIN Minutes                          |
-| Touches Touches                       | Touches Touches                      |
-| Post Touches Post Touches             | Paint Touches Paint Touches          |
-| FGM Field Goals Made                  | FGM Field Goals Made                 |
-| FGA Field Goals Attempted             | FGA Field Goals Attempted            |
-| FG% Field Goal Percentage             | FG% Field Goal Percentage            |
-| FTM Free Throws Made                  | FTM Free Throws Made                 |
-| FTA Free Throws Attempted             | FTA Free Throws Attempted            |
-| FT% Free Throw Percentage             | FT% Free Throw Percentage            |
-| PTS Points                            | PTS Points                           |
-| PTS% Points Percentage                | PTS% Points Percentage               |
-|  PASS Pass                            | PASS Pass                            |
-| PASS% Pass Percentage                 | PASS% Pass Percentage                |
-| AST Assists                           | AST Assists                          |
-| AST% Percent of Team's Assists        | AST% Percent of Team's Assists       |
-| TO Turnovers                          | TO Turnovers                         |
-| TOV% Percent of Team's Turnovers      | TOV% Percent of Team's Turnovers     |
-| PF Personal Fouls                     | PF Personal Fouls                    |
-|  PF% Percent of Team's Personal Fouls | PF% Percent of Team's Personal Fouls |
+| Post Ups                             | Paint Touches                       | Speed & Distance                       |
+|---------------------------------------|--------------------------------------|----------------------------------------|
+| GP Games Played                       | GP Games Played                      | GP Games Played                        |
+| W Wins                                | W Wins                               | W Wins                                 |
+| L Losses                              | L Losses                             | L Losses                               |
+| MIN Minutes Played                    | MIN Minutes                          | DIST. FEET Distance Feet               |
+| Touches Touches                       | Touches Touches                      | DIST. MILES Distance Miles             |
+| Post Touches Post Touches             | Paint Touches Paint Touches          | DIST. MILES OFF Distance Miles Offense |
+| FGM Field Goals Made                  | FGM Field Goals Made                 | DIST. MILES DEF Distance Miles Defense |
+| FGA Field Goals Attempted             | FGA Field Goals Attempted            | AVG SPEED Average Speed                |
+| FG% Field Goal Percentage             | FG% Field Goal Percentage            | AVG SPEED OFF Average Speed Offense    |
+| FTM Free Throws Made                  | FTM Free Throws Made                 | AVG SPEED DEF Average Speed Defense    |
+| FTA Free Throws Attempted             | FTA Free Throws Attempted            |                                        |
+| FT% Free Throw Percentage             | FT% Free Throw Percentage            |                                        |
+| PTS Points                            | PTS Points                           |                                        |
+| PTS% Points Percentage                | PTS% Points Percentage               |                                        |
+|  PASS Pass                            | PASS Pass                            |                                        |
+| PASS% Pass Percentage                 | PASS% Pass Percentage                |                                        |
+| AST Assists                           | AST Assists                          |                                        |
+| AST% Percent of Team's Assists        | AST% Percent of Team's Assists       |                                        |
+| TO Turnovers                          | TO Turnovers                         |                                        |
+| TOV% Percent of Team's Turnovers      | TOV% Percent of Team's Turnovers     |                                        |
+| PF Personal Fouls                     | PF Personal Fouls                    |                                        |
+|  PF% Percent of Team's Personal Fouls | PF% Percent of Team's Personal Fouls |                                        |
