@@ -22,20 +22,6 @@ For detailed walkthrough, please view the source code in order from:
 5. Final Insights
 - clusteringEDA.ipynb
 
-
-=======
-
-1. 
-2. 
-3. 
-4. 
-5. 
-
-=======
-
-
-=======
-
 =======
 
 
