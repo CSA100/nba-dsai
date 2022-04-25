@@ -4,7 +4,7 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on datas from [NBA.com](https://www.nba.com/stats/players/).
 
-Check out our [Project Video](https://youtu.be/ZMQs6XHfcJc) and [slide deck](https://github.com/CSA100/nba-dsai/blob/master/BCF3_Group1_DeshpandeLimSingh.pptx) too
+Check out our [Project Video](https://youtu.be/ruRb7fCCUM8) and [slide deck](https://github.com/CSA100/nba-dsai/blob/master/BCF3_Group1_DeshpandeLimSingh.pptx) too
 
 
 ## For detailed walkthrough, please view the source code in order from:
